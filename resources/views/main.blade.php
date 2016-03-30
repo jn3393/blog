@@ -32,8 +32,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home(首页) <span class="sr-only">(current)</span></a></li>
-                <li><a href="/about">About(关于)</a></li>
+                <li class="active"><a href="index.php">Home(首页) <span class="sr-only">(current)</span></a></li>
+                <li><a href="about">About(关于)</a></li>
                 <li><a href="/contact">Contact(联系我们)</a></li>
                 <!--<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -72,48 +72,9 @@
         </nav>
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="jumbotron">
-                      <h1>Hello, world!</h1>
-                      <p class="lead">...</p>
-                      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-                    </div>                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="post">
-                        <h3>Post Tittle</h3>
-                        <p>范德萨范德萨范德萨范德萨分打算范德萨法大师傅大势发大水法大师傅大师傅的撒范德萨发大水发大水发范德萨范德萨发大水范德萨发大水啊阿三范德萨范德萨发大水法大师傅阿凡达是都是是是是地方撒范德萨范德萨地方撒深度j</p>
-                        <a href="" class="btn btn-primary ">More</a>
-                    </div>
-                    <hr>
-                    <div class="post">
-                        <h3>Post Tittle</h3>
-                        <p>jkfdls;ajfkldjsaljfldjslajfldjlsajfldjsklfjdlsj</p>
-                        <a href="" class="btn btn-primary ">More</a>
-                    </div>
-                    <hr>
-                    <div class="post">
-                        <h3>Post Tittle</h3>
-                        <p>jkfdls;ajfkldjsaljfldjslajfldjlsajfldjsklfjdlsj</p>
-                        <a href="" class="btn btn-primary ">More</a>
-                    </div>
-                    <hr>
-                    <div class="post">
-                        <h3>Post Tittle</h3>
-                        <p>jkfdls;ajfkldjsaljfldjslajfldjlsajfldjsklfjdlsj</p>
-                        <a href="" class="btn btn-primary ">More</a>
-                    </div>
-                    <hr>
-                </div>
-
-                <div class="col-md-3 col-md-offset-1">
-                    <h2>Sidebar</h2>
-                </div>
-            </div>
-            
+           @yield('content')
+           <hr>
+           <p class="text-center"> Copyright Leatry - All Rights Reserved</p>
         </div>
 
     
